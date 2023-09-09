@@ -6,10 +6,10 @@
 
 <style> 
 	
-	* {
+	/* {
 		outline: 1px solid red;
 	}
-	
+	*/
 	body { 
 		font-family:Archivo ;
 		
@@ -49,22 +49,46 @@
 		
 	}
 	
-	.menu li {
-		margin: 1rem ;
-	
+	.menu {
+		align-items: center;
+        margin-left: 12px;
+        display: flex;
+        justify-content: space-between;
+		width: calc(120px * 4); /* 4 gaps between 5 elements */
 		
 		
 	}
 	
-	.menu li a {
+	.menu a {
 		color: black ;
 		text-decoration: none ;	
+		cursor: pointer;
 	}
 	
+	.menu a::after {
+		content: '';
+		position: absolute;
+		width: 0;
+		height: 2px;
+		background: #000000;  /* Replace #yourColor with the color you want the line to be */
+		transition: width .3s ease-in-out;
+		transform: translateX(-50%);
+		left: 50%;
+		bottom: 0;
+	}
+	
+	.menu a:hover::after {
+		width: 100%;
+	}
+
+	.menu a:hover{
+		transform: scale(1.1); /* Increase the size to 110% when hovered */
+        transition: transform 0.3s ease-in-out; /* Smooth the size change over 0.3 seconds */
+	}
+
 	#hl {
-		box-sizing: border-box ;
-		height: 800px;
-  		margin: auto;
+		height: auto;
+		width: 1600px;
 		align-items: center ;
 	}
 	
@@ -90,9 +114,8 @@
 	}
 	
 	#last-banner {
-		box-sizing: border-box ;
-		height: 500px;
-  		margin: auto;
+		height: auto;
+		width: 1600px;
 		align-items: center ;
 		
 	}
@@ -162,14 +185,120 @@
 		padding-bottom: 10px ;
 
     }
-	
+
+	.photo-container{
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+
+	.about{
+
+        box-sizing: border-box ;
+		text-align: center ;
+		font-family: Archivo ;
+		font-weight: 800 ;
+		font-size: 55px ;
+		font-style: italic ;
+		padding-top: 10px ;
+		padding-left: 40px ;
+		padding-right: 40px ;
+		padding-bottom: 10px ;
+		height: 700px;
+
+    }
+
+	.about-head{
+		background-color: black;
+
+	}
+
+	.heading{
+		color: white;
+	}
+
+	.about-info-container{
+		display: flex;
+		justify-content: space-between;
+	}
+	.img-profile{
+		height: 400px;
+		width: auto;
+	}
+
+	.about-text-info-container{
+		display: flex;
+		text-align: center;
+	}
+
+	.about-text-info{
+		position: relative;
+		font-size: 30px;
+		width: 600px;
+		top:0px; left:0px; margin-left:0px; margin-right:0px;
+	}
 		
-	
-	
-	
-	
-	
-	
+	.contact{
+
+		box-sizing: border-box ;
+		text-align: center ;
+		align-items: center;
+		font-family: Archivo ;
+		font-weight: 800 ;
+		font-size: 55px ;
+		font-style: italic ;
+		padding-top: 10px ;
+		padding-left: 40px ;
+		padding-right: 40px ;
+		padding-bottom: 10px ;
+		height: 750px;
+
+	}
+
+	.contact-head-container{
+		background-color: black;
+		text-align: center;
+	}
+
+	.contact-head-text{
+		color: white;
+	}
+
+	.socialmedia-container{
+		align-items: center;
+		display: inline-block;
+	}
+
+	.contact-media-container{
+		align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: calc(300px * 4); /* 4 gaps between 5 elements */
+	}
+
+	.contact-media-container img{
+		height: auto;
+		width: 100px;
+	}
+
+	.contact-media-container a img:hover{
+        transform: scale(1.1); /* Increase the size to 110% when hovered */
+        transition: transform 0.3s ease-in-out; /* Smooth the size change over 0.3 seconds */
+    }
+
+	.contact-media-text-container{
+		align-items: center;
+		display: flex;
+		justify-content: space-around;
+		width: calc(300px * 4);
+	}
+
+	.contact-media-text-container a{
+		color: black;
+		text-decoration: none;
+		font-size: 30px;
+		font-weight: 100;
+	}
 	</style>	
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -197,15 +326,15 @@
 		<img id="black-logo" src="Designnn/LOGO/danbi_logo_black.png" width="120"> 
 		</div>
 		
-		<ul class="menu">
-			<li><a herf="#">HOME</a></li>
-			<li><a> ★ </a> </li>
-			<li><a herf="#">PORTFOLIO</a></li>
-			<li><a> ★ </a> </li>
-			<li><a herf="#">ABOUT DANBI</a></li>
-			<li><a> ★ </a> </li>
-			<li><a herf="#">CONTACT</a></li>
-		</ul>
+		<div class="menu">
+			<a herf="#">HOME</a>
+			<li> ★ </li>
+			<a herf="#">PORTFOLIO</a>
+			<li> ★  </li>
+			<a herf="#">ABOUT DANBI</a>
+			<li> ★  </li>
+			<a herf="#">CONTACT</a>
+		</div>
 		
 			</div>
 	</div>
@@ -260,11 +389,80 @@
     <div class="ranking-text"> 
         <p> RANKING </p>
     </div>
-    
 
+</section>
 
+<section class="ranking-photos">
+	<div class="photo-container">
+		<img src="" alt="ranked-photos">
+	</div>
+</section>
 
+<section class="about">
+	<div class="about-head">
+		<p class="heading">★ ABOUT DANBI ★</p>
+	</div>
 
+	<div class="about-info-container">
+		<img class="img-profile" src="/HOME/ABOUT ME/MY PHOTO/IMG_0727.JPG" alt="profile">
+		<div class="about-text-info-container">
+			<p class="about-text-info">
+				Name: Sasiwimol Jantawang <br><br>
+				Nickname: Mew or Danbi <br><br>
+				Birthdate : 8 november, 2003 <br><br>
+				Media Arts And Design Students
+				Fine Arts, Chiangmai University <br><br>
+				Speak 3 languages : Thai / Eng / Kor
+			</p>
+		</div>
+	</div>
+
+</section>
+<hr color="black">
+
+<section class="contact">
+	<div class="contact-head-container">
+		<p class="contact-head-text">★ CONTACT ★</p>
+	</div>
+
+	<div class="socialmedia-container">
+		<div class="contact-media-container">
+			<a href="">
+			<img src="/HOME/CONTACT/email.png" alt="email">
+			</a>
+			<a href="">
+			<img src="/HOME/CONTACT/instagram.png" alt="instagram">
+			</a>
+			<a href="">
+			<img src="/HOME/CONTACT/behance.png" alt="behance">
+			</a>
+			<a href="">
+			<img src="/HOME/CONTACT/kakao-talk.png" alt="kakao">
+			</a>
+			<a href="">
+			<img src="/HOME/CONTACT/youtube.png" alt="youtube">
+			</a>
+		</div>
+
+		<div class="contact-media-text-container">
+			<a href="">
+				Email
+			</a>
+			<a href="">
+				Instagram
+			</a>
+			<a href="">
+				Behance
+			</a>
+			<a href="">
+				Kakao
+			</a>
+			<a href="">
+				YouTube
+			</a>
+		</div>
+
+	</div>
 </section>
 
 </section>
