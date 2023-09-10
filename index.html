@@ -6,9 +6,9 @@
 
 <style> 
 	
-	/* {
+	* {
 		outline: 1px solid red;
-	}*/
+	}
 	
 	body { 
 		font-family:Archivo ;
@@ -87,15 +87,14 @@
 	}
 
 	#hl {
-		height: auto;
 		width: 1600px;
 		align-items: center ;
 	}
 	
 	.highight {
 		display: flex ;
-		box-sizing: border-box ;
 		align-items: center ;
+
 	
 	}
 	
@@ -139,8 +138,6 @@
 	}
 	
 	.port-bg {
-
-		
 		margin-top : auto;
 		background-color:#003241 ;
 		display: flex ;
@@ -177,25 +174,20 @@
 		align-content: center;
 	}
 	
-    .ranking {
-
-        box-sizing: border-box ;
-		text-align: center ;
-		font-family: Archivo ;
-		font-weight: 800 ;
-		font-size: 55px ;
-		font-style: italic ;
-		padding-top: 10px ;
-		padding-left: 10px ;
-		padding-right: 10px ;
-		padding-bottom: 10px ;
-
-    }
+	.ranking-text{
+		text-align: center;
+		font-family: Archivo;
+		font-weight: 800;
+		font-size: 55px;
+		font-style: italic;
+		height: 80px;
+	}
 
 	.photo-container{
 		display: flex;
 		align-items: center;
 		text-align: center;
+		background-image: linear-gradient(to right,#003241,#832F00,#000000 );
 	}
 
 	.about{
@@ -403,12 +395,12 @@
 </section>
 
 
-<section class="ranking">
-    <div class="ranking-text"> 
-        <p> RANKING </p>
-    </div>
 
-</section>
+<div class="ranking-text"> 
+    <p> RANKING </p>
+</div>
+
+
 
 <section class="ranking-photos">
 	<div class="photo-container">
