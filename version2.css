@@ -1,14 +1,12 @@
 /* {
     outline: 1px solid red;
 }*/ 
-
 .Top-tap{
     display: flex;
     text-align: center;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    width: calc(680px*2);
 
 }
 
@@ -18,14 +16,12 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    width: calc(120px*4);
 }
 
 .menu a{
     text-decoration: none;
     color: black;
     font-family: Archivo;
-    font-weight: 200;
 }
 
 .menu a::after{
@@ -44,31 +40,18 @@
     width: 100%;
 }
 
-.menu a:hover{
-	transform: scale(1.1); /* Increase the size to 110% when hovered */
-    transition: transform 0.3s ease-in-out; /* Smooth the size change over 0.3 seconds */
-}
-
-.img-highlight{
-    height: auto;
-    width: 1383px;
-}
-
 .last-update{
     display: flex;
     text-align: center;
     align-items: center;
     font-family: Archivo;
-    font-weight: 800;
-    font-size: 55px;
     font-style: italic;
-    height: 100px;
     justify-content: center;
 }
 
-.highlight-img{
-    height: auto;
-    width: 1383px;
+.menu a:hover{
+    transform: scale(1.1); /* Increase the size to 110% when hovered */
+    transition: transform 0.3s ease-in-out; /* Smooth the size change over 0.3 seconds */
 }
 
 .portfolio-text{
@@ -76,10 +59,7 @@
     text-align: center;
     align-items: center;
     font-family: Archivo;
-    font-weight: 800;
-    font-size: 55px;
     font-style: italic;
-    height: 100px;
     justify-content: center;
 }
 
@@ -87,9 +67,6 @@
     background-color: #003241;
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .hl-img-container img:hover{
@@ -103,10 +80,7 @@
     text-align: center;
     align-items: center;
     font-family: Archivo;
-    font-weight: 800;
-    font-size: 55px;
     font-style: italic;
-    height: 100px;
     justify-content: center;
 }
 
@@ -115,8 +89,6 @@
     align-items: center;
     background-image: linear-gradient(to right, #003241,#832F00,#000000);
     justify-content: center;
-    gap: 40px;
-    height: 500px;
 }
 
 .rank-img-1:hover{
@@ -137,12 +109,6 @@
     transition: transform 0.4s ease-in-out;
 }
 
-.about{
-    padding-top: 40px;
-    padding-left: 40px ;
-	padding-right: 40px ;
-    height: 700px;
-}
 .about-text{
     color: white;
     background-color: black;
@@ -150,36 +116,17 @@
     text-align: center;
     align-items: center;
     font-family: Archivo;
-    font-weight: 800;
-    font-size: 55px;
     font-style: italic;
-    height: 100px;
     justify-content: center;
 }
 
 .about-info-container{
     display: flex;
-    padding-top: 40px;
-    gap: 30px;
     align-items: center;
     justify-content: center;
 }
-
-.about-img{
-    width: auto;
-    height: 500px;
-}
-
 .about-info-text{
     font-family: Archivo;
-    font-size: 37px;
-    font-weight: 500;  
-}
-
-.contact{
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .contact-head{
@@ -189,27 +136,17 @@
     text-align: center;
     align-items: center;
     font-family: Archivo;
-    font-weight: 800;
-    font-size: 55px;
     font-style: italic;
-    height: 100px;
     justify-content: center;
-}
-.social-icons img{
-    height: auto;
-    width: 130px;
 }
 
 .social-icons{
-    padding-top: 40px;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 163px;
-    padding-bottom: 40px;
-
 }
+
 
 .email-container, 
 .instagram-container,
@@ -245,8 +182,6 @@
     text-decoration: none;
     font-family: Archivo;
     font-style: italic;
-    font-size: 30px;
-    font-weight: 20;
     color: black;
 }
 
@@ -258,32 +193,19 @@
     text-align: center;
     align-items: center;
     font-family: Archivo;
-    font-weight: 600;
-    font-size: 55px;
-    height: 100px;
     justify-content: center;
-}
-
-.last-info{
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 40px;
 }
 
 .last-info-container{
     display: flex;
     justify-content: center;
-    gap: 180px;
 }
 
 .last-menu{
     display: flex;
-    gap: 180px;
 }
 
 .help-drops{
-    padding-top: 15px;
     display: grid;
     font-family: Archivo;
     color: black;
@@ -292,17 +214,14 @@
 .a-help{
     font-family: Archivo;
     font-style: italic;
-    font-size: 20px;
     text-decoration: none;
     color:black;
 }
 
 .help-drops a{
-    padding-bottom: 10px;
     text-decoration: none;
     color: black;
     font-style: italic;
-    font-weight: 200;
 }
 
 .category-tap{
@@ -314,22 +233,18 @@
 .a-catagory{
     font-family: Archivo;
     font-style: italic;
-    font-size: 20px;
     text-decoration: none;
     color:black;
 }
 
 .catagory-drops{
-    padding-top: 15px;
     display: grid;
 }
 
 .catagory-drops a{
-    padding-bottom: 10px;
     text-decoration: none;
     color: black;
     font-style: italic;
-    font-weight: 200;
 }
 
 .follow-me{
@@ -340,22 +255,18 @@
 .a-follow{
     font-family: Archivo;
     font-style: italic;
-    font-size: 20px;
     text-decoration: none;
     color:black;
 }
 
 .follow-drops{
-    padding-top: 15px;
     display: grid;
 }
 
 .follow-drops a{
-    padding-bottom: 10px;
     text-decoration: none;
     color: black;
     font-style: italic;
-    font-weight: 200;
 }
 
 .outro-text-container{
@@ -363,8 +274,6 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    gap: 90px;
-    height: 100px;
 }
 
 .tc{
@@ -372,7 +281,6 @@
     font-style: italic;
     text-decoration: none;
     color: white;
-    font-weight: 80;
 }
 
 .pp{
@@ -384,12 +292,960 @@
 .pp a{
     text-decoration: none;
     color: white;
-    font-weight: 80;
 }
 
 .outro-text-container p{
     font-family: Archivo;
     font-style: italic;
     color: white;
-    font-weight: 80;
 }
+
+
+/* Extra Small (XS) */
+@media screen and (max-width: 576px) {
+    /* CSS rules for screens up to 576px wide (e.g., smartphones) */
+
+    .Top-tap{
+        width: calc(680px*2);
+
+    }
+
+    .menu{
+        width: calc(120px*4);
+    }
+
+    .menu a{
+        font-weight: 200;
+    }
+
+    
+    .img-highlight{
+        height: auto;
+        width: 1383px;
+    }
+
+    .last-update{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .highlight-img{
+        height: auto;
+        width: 1383px;
+    }
+
+    .portfolio-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .hl-img-container{
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ranking-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .img-rank-container{
+        gap: 40px;
+        height: 500px;
+    }
+
+    .about{
+        padding-top: 40px;
+        padding-left: 40px ;
+        padding-right: 40px ;
+        height: 700px;
+    }
+    .about-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .about-info-container{
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    .about-img{
+        width: auto;
+        height: 500px;
+    }
+
+    .about-info-text{
+        font-size: 37px;
+        font-weight: 500;  
+    }
+
+    .contact{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-head{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+    .social-icons img{
+        height: auto;
+        width: 130px;
+    }
+
+    .social-icons{
+        padding-top: 40px;
+        gap: 163px;
+        padding-bottom: 40px;
+
+    }
+
+    .Email, .Insta, .Behance, .Kakao, .Youtube{
+        font-size: 30px;
+        font-weight: 20;
+    }
+
+    .thanks{
+        font-weight: 600;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .last-info{
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+    }
+
+    .last-info-container{
+        gap: 180px;
+    }
+
+    .last-menu{
+        gap: 180px;
+    }
+
+    .help-drops{
+        padding-top: 15px;
+    }
+
+    .a-help{
+        font-size: 20px;
+    }
+
+    .help-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+    
+    .a-catagory{
+        font-size: 20px;
+    }
+
+    .catagory-drops{
+        padding-top: 15px;
+    }
+
+    .catagory-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .a-follow{
+        font-size: 20px;
+    }
+
+    .follow-drops{
+        padding-top: 15px;
+    }
+
+    .follow-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .outro-text-container{
+        gap: 90px;
+        height: 100px;
+    }
+
+    .tc{
+        font-weight: 80;
+    }
+
+    .pp a{
+        font-weight: 80;
+    }
+
+    .outro-text-container p{
+        font-weight: 80;
+    }
+}
+  
+  /* Small (SM) */
+  @media screen and (min-width: 577px) and (max-width: 767px) {
+    /* CSS rules for screens from 577px to 767px wide (e.g., larger smartphones) */
+
+    .Top-tap{
+        width: calc(680px*2);
+
+    }
+
+    .menu{
+        width: calc(120px*4);
+    }
+
+    .menu a{
+        font-weight: 200;
+    }
+
+    
+    .img-highlight{
+        height: auto;
+        width: 1383px;
+    }
+
+    .last-update{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .highlight-img{
+        height: auto;
+        width: 1383px;
+    }
+
+    .portfolio-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .hl-img-container{
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ranking-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .img-rank-container{
+        gap: 40px;
+        height: 500px;
+    }
+
+    .about{
+        padding-top: 40px;
+        padding-left: 40px ;
+        padding-right: 40px ;
+        height: 700px;
+    }
+    .about-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .about-info-container{
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    .about-img{
+        width: auto;
+        height: 500px;
+    }
+
+    .about-info-text{
+        font-size: 37px;
+        font-weight: 500;  
+    }
+
+    .contact{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-head{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+    .social-icons img{
+        height: auto;
+        width: 130px;
+    }
+
+    .social-icons{
+        padding-top: 40px;
+        gap: 163px;
+        padding-bottom: 40px;
+
+    }
+
+    .Email, .Insta, .Behance, .Kakao, .Youtube{
+        font-size: 30px;
+        font-weight: 20;
+    }
+
+    .thanks{
+        font-weight: 600;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .last-info{
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+    }
+
+    .last-info-container{
+        gap: 180px;
+    }
+
+    .last-menu{
+        gap: 180px;
+    }
+
+    .help-drops{
+        padding-top: 15px;
+    }
+
+    .a-help{
+        font-size: 20px;
+    }
+
+    .help-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+    
+    .a-catagory{
+        font-size: 20px;
+    }
+
+    .catagory-drops{
+        padding-top: 15px;
+    }
+
+    .catagory-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .a-follow{
+        font-size: 20px;
+    }
+
+    .follow-drops{
+        padding-top: 15px;
+    }
+
+    .follow-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .outro-text-container{
+        gap: 90px;
+        height: 100px;
+    }
+
+    .tc{
+        font-weight: 80;
+    }
+
+    .pp a{
+        font-weight: 80;
+    }
+
+    .outro-text-container p{
+        font-weight: 80;
+    }
+}
+  
+  /* Medium (MD) */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for screens from 768px to 991px wide (e.g., tablets) */
+
+    .Top-tap{
+        width: calc(680px*2);
+
+    }
+
+    .menu{
+        width: calc(120px*4);
+    }
+
+    .menu a{
+        font-weight: 200;
+    }
+
+    
+    .img-highlight{
+        height: auto;
+        width: 1383px;
+    }
+
+    .last-update{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .highlight-img{
+        height: auto;
+        width: 1383px;
+    }
+
+    .portfolio-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .hl-img-container{
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ranking-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .img-rank-container{
+        gap: 40px;
+        height: 500px;
+    }
+
+    .about{
+        padding-top: 40px;
+        padding-left: 40px ;
+        padding-right: 40px ;
+        height: 700px;
+    }
+    .about-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .about-info-container{
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    .about-img{
+        width: auto;
+        height: 500px;
+    }
+
+    .about-info-text{
+        font-size: 37px;
+        font-weight: 500;  
+    }
+
+    .contact{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-head{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+    .social-icons img{
+        height: auto;
+        width: 130px;
+    }
+
+    .social-icons{
+        padding-top: 40px;
+        gap: 163px;
+        padding-bottom: 40px;
+
+    }
+
+    .Email, .Insta, .Behance, .Kakao, .Youtube{
+        font-size: 30px;
+        font-weight: 20;
+    }
+
+    .thanks{
+        font-weight: 600;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .last-info{
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+    }
+
+    .last-info-container{
+        gap: 180px;
+    }
+
+    .last-menu{
+        gap: 180px;
+    }
+
+    .help-drops{
+        padding-top: 15px;
+    }
+
+    .a-help{
+        font-size: 20px;
+    }
+
+    .help-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+    
+    .a-catagory{
+        font-size: 20px;
+    }
+
+    .catagory-drops{
+        padding-top: 15px;
+    }
+
+    .catagory-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .a-follow{
+        font-size: 20px;
+    }
+
+    .follow-drops{
+        padding-top: 15px;
+    }
+
+    .follow-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .outro-text-container{
+        gap: 90px;
+        height: 100px;
+    }
+
+    .tc{
+        font-weight: 80;
+    }
+
+    .pp a{
+        font-weight: 80;
+    }
+
+    .outro-text-container p{
+        font-weight: 80;
+    }
+}
+  
+  /* Large (LG) */
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for screens from 992px to 1199px wide (e.g., larger tablets and small desktops) */
+
+    .Top-tap{
+        width: calc(680px*2);
+
+    }
+
+    .menu{
+        width: calc(120px*4);
+    }
+
+    .menu a{
+        font-weight: 200;
+    }
+
+    
+    .img-highlight{
+        height: auto;
+        width: 1383px;
+    }
+
+    .last-update{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .highlight-img{
+        height: auto;
+        width: 1383px;
+    }
+
+    .portfolio-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .hl-img-container{
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ranking-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .img-rank-container{
+        gap: 40px;
+        height: 500px;
+    }
+
+    .about{
+        padding-top: 40px;
+        padding-left: 40px ;
+        padding-right: 40px ;
+        height: 700px;
+    }
+    .about-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .about-info-container{
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    .about-img{
+        width: auto;
+        height: 500px;
+    }
+
+    .about-info-text{
+        font-size: 37px;
+        font-weight: 500;  
+    }
+
+    .contact{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-head{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+    .social-icons img{
+        height: auto;
+        width: 130px;
+    }
+
+    .social-icons{
+        padding-top: 40px;
+        gap: 163px;
+        padding-bottom: 40px;
+
+    }
+
+    .Email, .Insta, .Behance, .Kakao, .Youtube{
+        font-size: 30px;
+        font-weight: 20;
+    }
+
+    .thanks{
+        font-weight: 600;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .last-info{
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+    }
+
+    .last-info-container{
+        gap: 180px;
+    }
+
+    .last-menu{
+        gap: 180px;
+    }
+
+    .help-drops{
+        padding-top: 15px;
+    }
+
+    .a-help{
+        font-size: 20px;
+    }
+
+    .help-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+    
+    .a-catagory{
+        font-size: 20px;
+    }
+
+    .catagory-drops{
+        padding-top: 15px;
+    }
+
+    .catagory-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .a-follow{
+        font-size: 20px;
+    }
+
+    .follow-drops{
+        padding-top: 15px;
+    }
+
+    .follow-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .outro-text-container{
+        gap: 90px;
+        height: 100px;
+    }
+
+    .tc{
+        font-weight: 80;
+    }
+
+    .pp a{
+        font-weight: 80;
+    }
+
+    .outro-text-container p{
+        font-weight: 80;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    /*For ultra wide screen*/
+      
+    .Top-tap{
+        width: calc(680px*2);
+
+    }
+
+    .menu{
+        width: calc(120px*4);
+    }
+
+    .menu a{
+        font-weight: 200;
+    }
+
+    
+    .img-highlight{
+        height: auto;
+        width: 1383px;
+    }
+
+    .last-update{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .highlight-img{
+        height: auto;
+        width: 1383px;
+    }
+
+    .portfolio-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .hl-img-container{
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ranking-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .img-rank-container{
+        gap: 40px;
+        height: 500px;
+    }
+
+    .about{
+        padding-top: 40px;
+        padding-left: 40px ;
+        padding-right: 40px ;
+        height: 700px;
+    }
+    .about-text{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .about-info-container{
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    .about-img{
+        width: auto;
+        height: 500px;
+    }
+
+    .about-info-text{
+        font-size: 37px;
+        font-weight: 500;  
+    }
+
+    .contact{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-head{
+        font-weight: 800;
+        font-size: 55px;
+        height: 100px;
+    }
+    .social-icons img{
+        height: auto;
+        width: 130px;
+    }
+
+    .social-icons{
+        padding-top: 40px;
+        gap: 163px;
+        padding-bottom: 40px;
+
+    }
+
+    .Email, .Insta, .Behance, .Kakao, .Youtube{
+        font-size: 30px;
+        font-weight: 20;
+    }
+
+    .thanks{
+        font-weight: 600;
+        font-size: 55px;
+        height: 100px;
+    }
+
+    .last-info{
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+    }
+
+    .last-info-container{
+        gap: 180px;
+    }
+
+    .last-menu{
+        gap: 180px;
+    }
+
+    .help-drops{
+        padding-top: 15px;
+    }
+
+    .a-help{
+        font-size: 20px;
+    }
+
+    .help-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+    
+    .a-catagory{
+        font-size: 20px;
+    }
+
+    .catagory-drops{
+        padding-top: 15px;
+    }
+
+    .catagory-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .a-follow{
+        font-size: 20px;
+    }
+
+    .follow-drops{
+        padding-top: 15px;
+    }
+
+    .follow-drops a{
+        padding-bottom: 10px;
+        font-weight: 200;
+    }
+
+    .outro-text-container{
+        gap: 90px;
+        height: 100px;
+    }
+
+    .tc{
+        font-weight: 80;
+    }
+
+    .pp a{
+        font-weight: 80;
+    }
+
+    .outro-text-container p{
+        font-weight: 80;
+    }
+  }
