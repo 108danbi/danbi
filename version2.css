@@ -1,6 +1,6 @@
 /* {
     outline: 1px solid red;
-}*/ 
+}*/
 .Top-tap{
     display: flex;
     text-align: center;
@@ -304,9 +304,12 @@
 /* Extra Small (XS) */
 @media screen and (max-width: 576px) {
     /* CSS rules for screens up to 576px wide (e.g., smartphones) */
+    body{
+        width: 873px;
+    }
 
     .Top-tap{
-        width: calc(680px*2);
+        width: calc(430px*2);
 
     }
 
@@ -321,23 +324,23 @@
     
     .img-highlight{
         height: auto;
-        width: 1383px;
+        width: 873px;
     }
 
     .last-update{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
     .highlight-img{
         height: auto;
-        width: 1383px;
+        width: 873px;
     }
 
     .portfolio-text{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
@@ -345,93 +348,113 @@
         gap: 40px;
         padding-top: 30px;
         padding-bottom: 30px;
+        width: 873px;
+    }
+
+    .hl-img-container img{
+        width: auto;
+        height: 200px;
     }
 
     .ranking-text{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
     .img-rank-container{
         gap: 40px;
-        height: 500px;
+        height: 300px;
+        width: 873px;
+    }
+
+    .img-rank-container img{
+        height: auto;
+        width: 200px;
     }
 
     .about{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 40px ;
         padding-right: 40px ;
-        height: 700px;
+        height: 440px;
+        width: 800px;
     }
     .about-text{
         font-weight: 800;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
 
     .about-info-container{
-        padding-top: 40px;
+        padding-top: 20px;
         gap: 30px;
     }
 
     .about-img{
         width: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .about-info-text{
-        font-size: 37px;
+        font-size: 23px;
         font-weight: 500;  
     }
 
     .contact{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 40px;
         padding-right: 40px;
+        height: 210px;
     }
 
     .contact-head{
         font-weight: 800;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
     .social-icons img{
         height: auto;
-        width: 130px;
+        width: 45px;
     }
 
     .social-icons{
-        padding-top: 40px;
-        gap: 163px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        gap: 105px;
+        padding-bottom: 20px;
 
     }
 
+    .email-container, .instagram-container,
+    .behance-container, .kakao-container,
+    .youtube-container{
+        display: grid;
+    }
+
     .Email, .Insta, .Behance, .Kakao, .Youtube{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 20;
     }
 
     .thanks{
         font-weight: 600;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
 
     .last-info{
-        padding-top: 60px;
+        padding-top: 30px;
         padding-left: 60px;
         padding-right: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     .last-info-container{
-        gap: 180px;
+        gap: 80px;
     }
 
     .last-menu{
-        gap: 180px;
+        gap: 80px;
     }
 
     .help-drops{
@@ -495,8 +518,11 @@
   @media screen and (min-width: 577px) and (max-width: 767px) {
     /* CSS rules for screens from 577px to 767px wide (e.g., larger smartphones) */
 
+    body{
+        width: 873px;
+    }
     .Top-tap{
-        width: calc(680px*2);
+        width: calc(430px*2);
 
     }
 
@@ -511,23 +537,23 @@
     
     .img-highlight{
         height: auto;
-        width: 1383px;
+        width: 873px;
     }
 
     .last-update{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
     .highlight-img{
         height: auto;
-        width: 1383px;
+        width: 873px;
     }
 
     .portfolio-text{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
@@ -535,93 +561,113 @@
         gap: 40px;
         padding-top: 30px;
         padding-bottom: 30px;
+        width: 873px;
+    }
+
+    .hl-img-container img{
+        width: auto;
+        height: 250px;
     }
 
     .ranking-text{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
     .img-rank-container{
         gap: 40px;
-        height: 500px;
+        height: 300px;
+        width: 873px;
+    }
+
+    .img-rank-container img{
+        height: auto;
+        width: 200px;
     }
 
     .about{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 40px ;
         padding-right: 40px ;
-        height: 700px;
+        height: 440px;
+        width: 800px;
     }
     .about-text{
         font-weight: 800;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
 
     .about-info-container{
-        padding-top: 40px;
+        padding-top: 20px;
         gap: 30px;
     }
 
     .about-img{
         width: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .about-info-text{
-        font-size: 37px;
+        font-size: 23px;
         font-weight: 500;  
     }
 
     .contact{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 40px;
         padding-right: 40px;
+        height: 210px;
     }
 
     .contact-head{
         font-weight: 800;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
     .social-icons img{
         height: auto;
-        width: 130px;
+        width: 45px;
     }
 
     .social-icons{
-        padding-top: 40px;
-        gap: 163px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        gap: 105px;
+        padding-bottom: 20px;
 
     }
 
+    .email-container, .instagram-container,
+    .behance-container, .kakao-container,
+    .youtube-container{
+        display: grid;
+    }
+
     .Email, .Insta, .Behance, .Kakao, .Youtube{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 20;
     }
 
     .thanks{
         font-weight: 600;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
 
     .last-info{
-        padding-top: 60px;
+        padding-top: 30px;
         padding-left: 60px;
         padding-right: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     .last-info-container{
-        gap: 180px;
+        gap: 80px;
     }
 
     .last-menu{
-        gap: 180px;
+        gap: 80px;
     }
 
     .help-drops{
@@ -686,7 +732,7 @@
     /* CSS rules for screens from 768px to 991px wide (e.g., tablets) */
 
     .Top-tap{
-        width: calc(680px*2);
+        width: calc(485px*2);
 
     }
 
@@ -701,23 +747,23 @@
     
     .img-highlight{
         height: auto;
-        width: 1383px;
+        width: 973px;
     }
 
     .last-update{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
     .highlight-img{
         height: auto;
-        width: 1383px;
+        width: 973px;
     }
 
     .portfolio-text{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
@@ -725,93 +771,113 @@
         gap: 40px;
         padding-top: 30px;
         padding-bottom: 30px;
+        width: 973px;
+    }
+
+    .hl-img-container img{
+        width: auto;
+        height: 300px;
     }
 
     .ranking-text{
         font-weight: 800;
-        font-size: 55px;
+        font-size: 35px;
         height: 100px;
     }
 
     .img-rank-container{
         gap: 40px;
-        height: 500px;
+        height: 300px;
+        width: 973px;
+    }
+
+    .img-rank-container img{
+        height: auto;
+        width: 200px;
     }
 
     .about{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 40px ;
         padding-right: 40px ;
-        height: 700px;
+        height: 440px;
+        width: 894px;
     }
     .about-text{
         font-weight: 800;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
 
     .about-info-container{
-        padding-top: 40px;
+        padding-top: 20px;
         gap: 30px;
     }
 
     .about-img{
         width: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .about-info-text{
-        font-size: 37px;
+        font-size: 23px;
         font-weight: 500;  
     }
 
     .contact{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 40px;
         padding-right: 40px;
+        height: 210px;
     }
 
     .contact-head{
         font-weight: 800;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
     .social-icons img{
         height: auto;
-        width: 130px;
+        width: 65px;
     }
 
     .social-icons{
-        padding-top: 40px;
-        gap: 163px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        gap: 105px;
+        padding-bottom: 20px;
 
     }
 
+    .email-container, .instagram-container,
+    .behance-container, .kakao-container,
+    .youtube-container{
+        display: grid;
+    }
+
     .Email, .Insta, .Behance, .Kakao, .Youtube{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 20;
     }
 
     .thanks{
         font-weight: 600;
-        font-size: 55px;
-        height: 100px;
+        font-size: 35px;
+        height: 80px;
     }
 
     .last-info{
-        padding-top: 60px;
+        padding-top: 30px;
         padding-left: 60px;
         padding-right: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     .last-info-container{
-        gap: 180px;
+        gap: 80px;
     }
 
     .last-menu{
-        gap: 180px;
+        gap: 80px;
     }
 
     .help-drops{
@@ -875,6 +941,10 @@
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     /* CSS rules for screens from 992px to 1199px wide (e.g., larger tablets and small desktops) */
 
+    body{
+        width: 1400px;
+    }
+
     .Top-tap{
         width: calc(680px*2);
 
@@ -915,6 +985,11 @@
         gap: 40px;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .hl-img-container img{
+        width: 300px;
+        height: auto;
     }
 
     .ranking-text{
@@ -1063,7 +1138,13 @@
   
 @media screen and (min-width: 1200px) {
     /*For ultra wide screen*/
-      
+    /*{
+        outline: 1px solid red;
+    }*/
+
+    body{
+        width: 1380px;
+    }
     .Top-tap{
         width: calc(680px*2);
 
@@ -1104,6 +1185,11 @@
         gap: 40px;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    
+    .hl-img-container img{
+        height: auto;
+        width: 320px;
     }
 
     .ranking-text{
